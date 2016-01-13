@@ -134,27 +134,6 @@ public class NumberGeneratorUI extends javax.swing.JFrame {
         }
         String displaytext = String.valueOf(finalInt);
         jTextField1.setText(displaytext);
-        
-        /*
-        char[] splitText = usertext.toCharArray();
-        for(int i = 0; i < usertext.length(); i++)
-        {
-            // will check current position in splitText[] to find any letters from a to m(upper case and lower case). It will then add 13 to their ascii value to get the encrypted/decrypted message. This uses ROT13.
-            if(splitText[i] >= 'a' && splitText[i] <= 'm' || splitText[i] >= 'A' && splitText[i] <= 'M'){
-                splitText[i] += 13;
-                // will check current position in splitText[] to find any letters from n to z(upper case and lower case). It will then reduce 13 from their ascii value to get the encrypted/decrypted message. This uses ROT13
-            }else if(splitText[i] >= 'n' && splitText[i] <= 'z' || splitText[i] >= 'N' && splitText[i] <= 'Z'){
-                splitText[i] -= 13;
-                // Checks current position in splitText[] to find any numbers from 0 to 4. It will then add 5 to their ascii value to get the encrypted/decrypted message. This uses ROT5.
-            }else if(splitText[i] >= '0' && splitText[i] <= '4'){
-                splitText[i] += 5;
-                // Checks current position in splitText[] to find any numbers from 5 to 9. It will then reduce 5 from their ascii value to get the encrypted/decrypted message. This uses ROT5.
-            }else if(splitText[i] >= '5' && splitText[i] <= '9'){
-                splitText[i] -= 5;
-            }
-        }
-        newtext = String.valueOf(splitText);
-        jTextField1.setText(newtext);*/
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
